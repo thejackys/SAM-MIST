@@ -1,6 +1,8 @@
 # VL Final Report. SAM Modfied MIST.
 
 The SAM optimizer is switched on top of the Adam optimizer. 
+The training method is still similar to the origninal MIST repo. 
+Resuming from certain epoch method is added and can be added to shell by specifing the prev epoch --prev_epoch. Please check the shell file for example. 
 
 ## MIST: Multi-modal Iterative Spatial-Temporal Transformer for Long-form Video Question Answering
 [![LICENSE](https://img.shields.io/badge/license-MIT-green)](LICENSE)
