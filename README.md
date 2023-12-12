@@ -1,4 +1,5 @@
-#VL Final Report. SAM Modfied MIST.
+# VL Final Report. SAM Modfied MIST.
+
 The SAM optimizer is switched on top of the Adam optimizer. 
 
 ## MIST: Multi-modal Iterative Spatial-Temporal Transformer for Long-form Video Question Answering
