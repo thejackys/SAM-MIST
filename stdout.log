@@ -1,0 +1,109 @@
+2023-12-09 11:23:24,517 INFO     Namespace(dataset='agqa', baseline='', n_layers=2, n_heads=8, embd_dim=512, ff_dim=1024, dropout=0.3, sentence_dim=2048, qmax_words=30, amax_words=38, max_feats=32, dataset_dir='/content/VL_Final/datasets/', feature_dir='/content/VL_Final/feats/', checkpoint_predir='', checkpoint_dir='agqa', pretrain_path='', bert_path='transformers', batch_size=128, batch_size_val=128, n_pair=32, seed=100, epochs=30, test=0, lr=3e-05, weight_decay=0, clip=12, freq_display=45, num_thread_reader=8, mlm_prob=0.0, n_negs=1, lr_decay=0.9, min_time=10, min_words=10, question_example='', video_example='', port=8899, pretrain_path2='', save_dir='/content/VL_Final/save_models/agqa/mist_agqa_v2/', mc=0, bnum=10, feature_dim=512, word_dim=768, load_path='/content/VL_Final/datasets/agqa', features_path='/content/VL_Final/feats/agqa', train_csv_path='/content/VL_Final/datasets/agqa/train.csv', val_csv_path='/content/VL_Final/datasets/agqa/val.csv', test_csv_path='/content/VL_Final/datasets/agqa/test.csv', vocab_path='/content/VL_Final/datasets/agqa/vocab.json')
+2023-12-09 11:23:27,278 INFO     Length of Answer Vocabulary: 171
+2023-12-09 11:23:36,097 INFO     Using 1 GPUs
+2023-12-09 11:23:36,107 INFO     Nb of trainable params:387691650
+2023-12-09 11:24:11,545 INFO     number of train instances: 1600894
+2023-12-09 11:24:11,545 INFO     number of val instances: 669207
+2023-12-09 11:24:11,549 INFO     Set cosine schedule with 375180 iterations
+2023-12-09 11:28:12,885 INFO     Epoch 1, Epoch status: 0.0221, Training VideoQA loss: 3.1614, Training acc: 16.18%
+2023-12-09 11:32:15,612 INFO     Epoch 1, Epoch status: 0.0443, Training VideoQA loss: 2.3150, Training acc: 23.87%
+2023-12-09 11:36:13,275 INFO     Epoch 1, Epoch status: 0.0664, Training VideoQA loss: 1.9553, Training acc: 30.98%
+2023-12-09 11:40:10,615 INFO     Epoch 1, Epoch status: 0.0886, Training VideoQA loss: 1.7431, Training acc: 35.21%
+2023-12-09 11:44:08,067 INFO     Epoch 1, Epoch status: 0.1107, Training VideoQA loss: 1.6044, Training acc: 39.77%
+2023-12-09 11:48:05,660 INFO     Epoch 1, Epoch status: 0.1329, Training VideoQA loss: 1.5372, Training acc: 41.63%
+2023-12-09 11:52:03,397 INFO     Epoch 1, Epoch status: 0.1550, Training VideoQA loss: 1.4815, Training acc: 42.92%
+2023-12-09 11:56:03,363 INFO     Epoch 1, Epoch status: 0.1772, Training VideoQA loss: 1.4359, Training acc: 44.20%
+2023-12-09 12:00:01,623 INFO     Epoch 1, Epoch status: 0.1993, Training VideoQA loss: 1.4153, Training acc: 44.82%
+2023-12-09 12:03:59,743 INFO     Epoch 1, Epoch status: 0.2215, Training VideoQA loss: 1.3843, Training acc: 45.49%
+2023-12-09 12:07:57,727 INFO     Epoch 1, Epoch status: 0.2436, Training VideoQA loss: 1.3615, Training acc: 46.36%
+2023-12-09 12:11:55,666 INFO     Epoch 1, Epoch status: 0.2658, Training VideoQA loss: 1.3284, Training acc: 47.59%
+2023-12-09 12:15:53,731 INFO     Epoch 1, Epoch status: 0.2879, Training VideoQA loss: 1.3118, Training acc: 47.57%
+2023-12-09 12:19:51,848 INFO     Epoch 1, Epoch status: 0.3101, Training VideoQA loss: 1.3072, Training acc: 47.67%
+2023-12-09 12:23:52,376 INFO     Epoch 1, Epoch status: 0.3322, Training VideoQA loss: 1.2779, Training acc: 48.52%
+2023-12-09 12:38:47,528 INFO     val acc: 49.53%
+2023-12-09 12:38:47,529 INFO     val acc10: 96.80%
+2023-12-09 12:42:39,848 INFO     Epoch 1, Epoch status: 0.3544, Training VideoQA loss: 1.1967, Training acc: 49.21%
+2023-12-09 12:46:36,032 INFO     Epoch 1, Epoch status: 0.3765, Training VideoQA loss: 1.1634, Training acc: 50.48%
+2023-12-09 12:50:32,435 INFO     Epoch 1, Epoch status: 0.3987, Training VideoQA loss: 1.1425, Training acc: 51.16%
+2023-12-09 12:54:29,066 INFO     Epoch 1, Epoch status: 0.4208, Training VideoQA loss: 1.1170, Training acc: 52.37%
+2023-12-09 12:58:28,058 INFO     Epoch 1, Epoch status: 0.4430, Training VideoQA loss: 1.1063, Training acc: 52.11%
+2023-12-09 13:02:24,406 INFO     Epoch 1, Epoch status: 0.4651, Training VideoQA loss: 1.0901, Training acc: 52.92%
+2023-12-09 13:06:21,211 INFO     Epoch 1, Epoch status: 0.4873, Training VideoQA loss: 1.0714, Training acc: 53.56%
+2023-12-09 13:10:17,960 INFO     Epoch 1, Epoch status: 0.5094, Training VideoQA loss: 1.0586, Training acc: 53.87%
+2023-12-09 13:14:14,760 INFO     Epoch 1, Epoch status: 0.5316, Training VideoQA loss: 1.0270, Training acc: 54.66%
+2023-12-09 13:18:11,755 INFO     Epoch 1, Epoch status: 0.5537, Training VideoQA loss: 1.0088, Training acc: 55.37%
+2023-12-09 13:22:10,747 INFO     Epoch 1, Epoch status: 0.5759, Training VideoQA loss: 1.0010, Training acc: 55.53%
+2023-12-09 13:26:07,595 INFO     Epoch 1, Epoch status: 0.5980, Training VideoQA loss: 0.9726, Training acc: 56.95%
+2023-12-09 13:30:04,371 INFO     Epoch 1, Epoch status: 0.6202, Training VideoQA loss: 0.9629, Training acc: 57.36%
+2023-12-09 13:34:01,104 INFO     Epoch 1, Epoch status: 0.6423, Training VideoQA loss: 0.9393, Training acc: 57.85%
+2023-12-09 13:37:57,751 INFO     Epoch 1, Epoch status: 0.6645, Training VideoQA loss: 0.9261, Training acc: 58.55%
+2023-12-09 13:53:02,418 INFO     val acc: 51.36%
+2023-12-09 13:53:02,418 INFO     val acc10: 97.20%
+2023-12-09 13:56:44,192 INFO     Epoch 1, Epoch status: 0.6866, Training VideoQA loss: 0.8921, Training acc: 59.09%
+2023-12-09 14:00:41,102 INFO     Epoch 1, Epoch status: 0.7088, Training VideoQA loss: 0.8936, Training acc: 59.54%
+2023-12-09 14:04:40,636 INFO     Epoch 1, Epoch status: 0.7309, Training VideoQA loss: 0.8658, Training acc: 60.52%
+2023-12-09 14:08:37,488 INFO     Epoch 1, Epoch status: 0.7531, Training VideoQA loss: 0.8548, Training acc: 60.34%
+2023-12-09 14:12:34,157 INFO     Epoch 1, Epoch status: 0.7752, Training VideoQA loss: 0.8436, Training acc: 61.34%
+2023-12-09 14:16:30,939 INFO     Epoch 1, Epoch status: 0.7974, Training VideoQA loss: 0.8229, Training acc: 61.34%
+2023-12-09 14:20:27,838 INFO     Epoch 1, Epoch status: 0.8195, Training VideoQA loss: 0.8033, Training acc: 62.15%
+2023-12-09 14:24:25,040 INFO     Epoch 1, Epoch status: 0.8417, Training VideoQA loss: 0.8010, Training acc: 62.44%
+2023-12-09 14:28:24,084 INFO     Epoch 1, Epoch status: 0.8638, Training VideoQA loss: 0.7764, Training acc: 63.06%
+2023-12-09 14:32:20,955 INFO     Epoch 1, Epoch status: 0.8860, Training VideoQA loss: 0.7719, Training acc: 63.30%
+2023-12-09 14:36:17,924 INFO     Epoch 1, Epoch status: 0.9081, Training VideoQA loss: 0.7601, Training acc: 63.74%
+2023-12-09 14:40:14,853 INFO     Epoch 1, Epoch status: 0.9303, Training VideoQA loss: 0.7563, Training acc: 64.11%
+2023-12-09 14:44:12,045 INFO     Epoch 1, Epoch status: 0.9524, Training VideoQA loss: 0.7301, Training acc: 64.35%
+2023-12-09 14:48:09,212 INFO     Epoch 1, Epoch status: 0.9746, Training VideoQA loss: 0.7205, Training acc: 65.03%
+2023-12-09 14:52:08,496 INFO     Epoch 1, Epoch status: 0.9967, Training VideoQA loss: 0.7089, Training acc: 65.16%
+2023-12-09 15:07:24,739 INFO     val acc: 51.34%
+2023-12-09 15:07:24,739 INFO     val acc10: 97.29%
+2023-12-09 15:11:35,852 INFO     Epoch 2, Epoch status: 0.0221, Training VideoQA loss: 0.9631, Training acc: 59.03%
+2023-12-09 15:15:34,705 INFO     Epoch 2, Epoch status: 0.0443, Training VideoQA loss: 0.9160, Training acc: 60.45%
+2023-12-09 15:19:33,195 INFO     Epoch 2, Epoch status: 0.0664, Training VideoQA loss: 0.8948, Training acc: 60.75%
+2023-12-09 15:23:31,727 INFO     Epoch 2, Epoch status: 0.0886, Training VideoQA loss: 0.8926, Training acc: 60.80%
+2023-12-09 15:27:30,067 INFO     Epoch 2, Epoch status: 0.1107, Training VideoQA loss: 0.8801, Training acc: 61.28%
+2023-12-09 15:31:33,797 INFO     Epoch 2, Epoch status: 0.1329, Training VideoQA loss: 0.8695, Training acc: 61.30%
+2023-12-09 15:35:32,609 INFO     Epoch 2, Epoch status: 0.1550, Training VideoQA loss: 0.8638, Training acc: 61.46%
+2023-12-09 15:39:31,587 INFO     Epoch 2, Epoch status: 0.1772, Training VideoQA loss: 0.8587, Training acc: 61.99%
+2023-12-09 15:43:30,642 INFO     Epoch 2, Epoch status: 0.1993, Training VideoQA loss: 0.8428, Training acc: 62.44%
+2023-12-09 15:47:30,810 INFO     Epoch 2, Epoch status: 0.2215, Training VideoQA loss: 0.8339, Training acc: 62.39%
+2023-12-09 15:51:29,520 INFO     Epoch 2, Epoch status: 0.2436, Training VideoQA loss: 0.8269, Training acc: 62.65%
+2023-12-09 15:55:28,982 INFO     Epoch 2, Epoch status: 0.2658, Training VideoQA loss: 0.8211, Training acc: 62.82%
+2023-12-09 15:59:29,914 INFO     Epoch 2, Epoch status: 0.2879, Training VideoQA loss: 0.8280, Training acc: 62.76%
+2023-12-09 16:03:28,718 INFO     Epoch 2, Epoch status: 0.3101, Training VideoQA loss: 0.8226, Training acc: 62.96%
+2023-12-09 16:07:27,560 INFO     Epoch 2, Epoch status: 0.3322, Training VideoQA loss: 0.8104, Training acc: 63.14%
+2023-12-09 16:22:20,680 INFO     val acc: 51.69%
+2023-12-09 16:22:20,681 INFO     val acc10: 97.10%
+2023-12-09 16:26:12,872 INFO     Epoch 2, Epoch status: 0.3544, Training VideoQA loss: 0.6596, Training acc: 66.94%
+2023-12-09 16:30:09,890 INFO     Epoch 2, Epoch status: 0.3765, Training VideoQA loss: 0.6433, Training acc: 67.29%
+2023-12-09 16:34:09,522 INFO     Epoch 2, Epoch status: 0.3987, Training VideoQA loss: 0.6306, Training acc: 68.02%
+2023-12-09 16:38:07,230 INFO     Epoch 2, Epoch status: 0.4208, Training VideoQA loss: 0.6207, Training acc: 68.43%
+2023-12-09 16:42:04,152 INFO     Epoch 2, Epoch status: 0.4430, Training VideoQA loss: 0.6137, Training acc: 68.73%
+2023-12-09 16:46:00,997 INFO     Epoch 2, Epoch status: 0.4651, Training VideoQA loss: 0.6083, Training acc: 68.99%
+2023-12-09 16:49:57,825 INFO     Epoch 2, Epoch status: 0.4873, Training VideoQA loss: 0.6010, Training acc: 69.18%
+2023-12-09 16:53:54,963 INFO     Epoch 2, Epoch status: 0.5094, Training VideoQA loss: 0.5974, Training acc: 69.21%
+2023-12-09 16:57:54,117 INFO     Epoch 2, Epoch status: 0.5316, Training VideoQA loss: 0.5948, Training acc: 69.52%
+2023-12-09 17:01:50,928 INFO     Epoch 2, Epoch status: 0.5537, Training VideoQA loss: 0.5867, Training acc: 69.52%
+2023-12-09 17:05:47,881 INFO     Epoch 2, Epoch status: 0.5759, Training VideoQA loss: 0.5858, Training acc: 69.77%
+2023-12-09 17:09:44,572 INFO     Epoch 2, Epoch status: 0.5980, Training VideoQA loss: 0.5802, Training acc: 69.83%
+2023-12-09 17:13:41,539 INFO     Epoch 2, Epoch status: 0.6202, Training VideoQA loss: 0.5672, Training acc: 70.25%
+2023-12-09 17:17:38,393 INFO     Epoch 2, Epoch status: 0.6423, Training VideoQA loss: 0.5640, Training acc: 70.69%
+2023-12-09 17:21:37,731 INFO     Epoch 2, Epoch status: 0.6645, Training VideoQA loss: 0.5688, Training acc: 70.64%
+2023-12-09 17:36:38,237 INFO     val acc: 51.17%
+2023-12-09 17:36:38,237 INFO     val acc10: 97.14%
+2023-12-09 17:40:16,045 INFO     Epoch 2, Epoch status: 0.6866, Training VideoQA loss: 0.5663, Training acc: 70.09%
+2023-12-09 17:44:13,282 INFO     Epoch 2, Epoch status: 0.7088, Training VideoQA loss: 0.5555, Training acc: 70.68%
+2023-12-09 17:48:10,559 INFO     Epoch 2, Epoch status: 0.7309, Training VideoQA loss: 0.5542, Training acc: 70.40%
+2023-12-09 17:52:07,597 INFO     Epoch 2, Epoch status: 0.7531, Training VideoQA loss: 0.5504, Training acc: 70.84%
+2023-12-09 17:56:04,790 INFO     Epoch 2, Epoch status: 0.7752, Training VideoQA loss: 0.5458, Training acc: 71.07%
+2023-12-09 18:00:05,102 INFO     Epoch 2, Epoch status: 0.7974, Training VideoQA loss: 0.5336, Training acc: 71.41%
+2023-12-09 18:04:02,572 INFO     Epoch 2, Epoch status: 0.8195, Training VideoQA loss: 0.5265, Training acc: 72.02%
+2023-12-09 18:08:00,383 INFO     Epoch 2, Epoch status: 0.8417, Training VideoQA loss: 0.5267, Training acc: 71.58%
+2023-12-09 18:11:57,626 INFO     Epoch 2, Epoch status: 0.8638, Training VideoQA loss: 0.5286, Training acc: 71.96%
+2023-12-09 18:15:54,744 INFO     Epoch 2, Epoch status: 0.8860, Training VideoQA loss: 0.5174, Training acc: 72.03%
+2023-12-09 18:19:52,146 INFO     Epoch 2, Epoch status: 0.9081, Training VideoQA loss: 0.5177, Training acc: 71.86%
+2023-12-09 18:23:51,492 INFO     Epoch 2, Epoch status: 0.9303, Training VideoQA loss: 0.5171, Training acc: 72.18%
+2023-12-09 18:27:48,687 INFO     Epoch 2, Epoch status: 0.9524, Training VideoQA loss: 0.5073, Training acc: 72.60%
+2023-12-09 18:31:45,966 INFO     Epoch 2, Epoch status: 0.9746, Training VideoQA loss: 0.5104, Training acc: 72.69%
+2023-12-09 18:35:43,379 INFO     Epoch 2, Epoch status: 0.9967, Training VideoQA loss: 0.4997, Training acc: 72.98%
+2023-12-09 18:51:01,694 INFO     val acc: 51.53%
+2023-12-09 18:51:01,694 INFO     val acc10: 97.16%
