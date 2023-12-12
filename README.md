@@ -1,6 +1,6 @@
 # VL Final Report. SAM Modfied MIST.
-
-The SAM optimizer is switched on top of the Adam optimizer. 
+This is a final replication project of Vision and language in PSU.
+The SAM optimizer from https://github.com/davda54/sam is switched on top of the Adam optimizer. 
 The training method is still similar to the origninal MIST repo. 
 Resuming from certain epoch method is added and can be added to shell by specifing the prev epoch --prev_epoch. Please check the shell file for example. 
 
